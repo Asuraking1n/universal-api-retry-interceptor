@@ -1,6 +1,6 @@
 {
   "name": "universal-api-retry-interceptor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A universal API interceptor that works with fetch, axios, and any HTTP library with retry logic and offline support",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
