@@ -1,0 +1,54 @@
+{
+  "name": "universal-api-retry-interceptor",
+  "version": "1.0.0",
+  "description": "A universal API interceptor that works with fetch, axios, and any HTTP library with retry logic and offline support",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prepublishOnly": "npm run build",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "api",
+    "retry",
+    "interceptor",
+    "offline",
+    "network",
+    "fetch",
+    "axios",
+    "universal",
+    "http",
+    "request"
+  ],
+  "author": "Nishant",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Asuraking1n/universal-api-retry-interceptor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Asuraking1n/universal-api-retry-interceptor.git/issues"
+  },
+  "homepage": "https://github.com/Asuraking1n/universal-api-retry-interceptor.git#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.3.1",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/jest": "^29.0.0",
+    "jest": "^29.0.0",
+    "rollup": "^3.29.5",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,10 @@
+src/
+test/
+example-react-app/
+*.test.js
+*.test.ts
+.eslintrc
+.prettierrc
+rollup.config.js
+tsconfig.json
+jest.config.js
