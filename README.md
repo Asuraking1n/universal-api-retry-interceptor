@@ -9,7 +9,7 @@
 
 **A bulletproof, universal API interceptor that automatically handles failed requests with intelligent retry logic and seamless offline support. Works with ANY HTTP library!**
 
-[🚀 Quick Start](#-quick-start) • [📚 Documentation](#-documentation) • [🎮 Live Demo](#-live-demo) • [💡 Examples](#-examples) • [🤝 Contributing](#-contributing)
+[🚀 Quick Start](#-quick-start) • [🎮 Live Demo](#-live-demo) • [💡 Examples](#-examples) • [🤝 Contributing](#-contributing)
 
 </div>
 
@@ -130,9 +130,9 @@ new XMLHttpRequest();         // ✅ Auto-retried on failure
 
 **Experience the power yourself!** 
 
-👉 **[Interactive Demo](https://your-demo-url.com)** - See the interceptor in action with real API calls, retry scenarios, and offline simulation.
+👉 **[Interactive Demo](https://demo-universal-api-retry-interceptor.netlify.app/)** - See the interceptor in action with real API calls, retry scenarios, and offline simulation.
 
-![Demo Screenshot](https://via.placeholder.com/800x400/667eea/ffffff?text=Universal+API+Retry+Interceptor+Demo)
+![Demo Screenshot](https://github.com/user-attachments/assets/ccfa200c-eb6f-4164-8897-bec3e8cb2582)
 
 ---
 
